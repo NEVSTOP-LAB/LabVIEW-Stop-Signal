@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-12-10 21:44:19" Modified_Date="2022-12-10 22:27:20" Creator="IECUBE" Comments="" ID="8aabd394d730778691dd2c600e2bde9e">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-12-10 21:44:19" Modified_Date="2022-12-10 22:29:16" Creator="IECUBE" Comments="" ID="5a05902042385e48c7a5dff78d6c2aff">
   <Library_General_Settings>
     <Package_File_Name/>
     <Library_Version>0.1.0.1</Library_Version>
@@ -27,12 +27,12 @@
     </Custom_Action_VIs>
     <VI_Package_Configuration_File>NEVSTOP-StopSignal.vipc</VI_Package_Configuration_File>
     <Description>
-      <One_Line_Description_Summary/>
-      <Description/>
+      <One_Line_Description_Summary>LabVIEW 架构可使用的停止方案.</One_Line_Description_Summary>
+      <Description>LabVIEW 架构可使用的停止方案.</Description>
       <Copyright/>
       <Packager>NEVSTOP</Packager>
-      <URL/>
-      <Release_Notes/>
+      <URL>https://github.com/NEVSTOP-LAB</URL>
+      <Release_Notes>Create VIPM package</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
