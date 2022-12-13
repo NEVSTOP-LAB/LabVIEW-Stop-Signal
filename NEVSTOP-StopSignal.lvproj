@@ -20,11 +20,6 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="StopSignal" Type="Folder">
-			<Item Name="__TEST" Type="Folder"/>
-			<Item Name="_Support" Type="Folder"/>
-			<Item Name="API" Type="Folder"/>
-			<Item Name="Documentation" Type="Folder"/>
-			<Item Name="Typedef" Type="Folder"/>
 			<Item Name="dir.mnu" Type="Document" URL="../StopSignal/dir.mnu"/>
 			<Item Name="StopSignal.lvlib" Type="Library" URL="../StopSignal/StopSignal.lvlib"/>
 		</Item>

@@ -11,6 +11,8 @@ on:
     types: [closed]
 
   push:
+    paths-ignore:
+      - '**.md'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -35,25 +37,17 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: BuildDailyVIP
         id: build-vip
-        uses: LV-APT/lvCICD@main
+        uses: NEVSTOP-LAB/vipm-BuildViPackage@main
         with:
           LabVIEW_Version: 2017
-          Operation: vipm_BuildDailyVIP
-          Parameter1: ${{ github.workspace }}\NEVSTOP-StopSignal.vipb
-          Parameter2: NO
-
-      - id: vip-name
-        run:
-          $vipName=Split-Path -Path ${{ steps.build-vip.outputs.Result }} -Leaf;
-          Write-Host "::set-output name=vipName::"$vipName""
-        shell: powershell
+          VipbPath: ${{ github.workspace }}
 
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v3.0.0
         with:
           # Artifact name
-          name: ${{ steps.vip-name.outputs.vipName }}
-          path: ${{ steps.build-vip.outputs.Result }}
+          name: ${{ steps.build-vip.outputs.vipName }}
+          path: ${{ steps.build-vip.outputs.vipPathName }}
           # The desired behavior if no files are found using the provided path.
           if-no-files-found: warn
           retention-days: 90
