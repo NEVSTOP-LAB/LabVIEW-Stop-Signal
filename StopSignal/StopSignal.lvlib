@@ -65,6 +65,7 @@ StopSignal-Check.vi: 信号检查，用于没有 EventStructure 的普通循环
 	<Item Name="_TEST" Type="Folder">
 		<Item Name="StopSignal-TestMain.vi" Type="VI" URL="../__TEST/StopSignal-TestMain.vi"/>
 		<Item Name="StopSignal-TestMain2.vi" Type="VI" URL="../__TEST/StopSignal-TestMain2.vi"/>
+		<Item Name="StopSignal-TestMain3.vi" Type="VI" URL="../__TEST/StopSignal-TestMain3.vi"/>
 		<Item Name="StopSignal-Prototype.vi" Type="VI" URL="../__TEST/StopSignal-Prototype.vi"/>
 	</Item>
 </Library>
