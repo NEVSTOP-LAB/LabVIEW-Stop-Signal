@@ -60,6 +60,7 @@ StopSignal-Check.vi: 信号检查，用于没有 EventStructure 的普通循环
 	<Item Name="Typedef" Type="Folder">
 		<Item Name="StopSignal.ctl" Type="VI" URL="../Typedef/StopSignal.ctl"/>
 		<Item Name="Def-StopSignalData.ctl" Type="VI" URL="../Typedef/Def-StopSignalData.ctl"/>
+		<Item Name="def-StopReason.ctl" Type="VI" URL="../Typedef/def-StopReason.ctl"/>
 	</Item>
 	<Item Name="_TEST" Type="Folder">
 		<Item Name="StopSignal-TestMain.vi" Type="VI" URL="../__TEST/StopSignal-TestMain.vi"/>

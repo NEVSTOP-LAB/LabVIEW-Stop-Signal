@@ -23,6 +23,7 @@
 			<Item Name="dir.mnu" Type="Document" URL="../StopSignal/dir.mnu"/>
 			<Item Name="StopSignal.lvlib" Type="Library" URL="../StopSignal/StopSignal.lvlib"/>
 		</Item>
+		<Item Name="NEVSTOP-StopSignal.vipb" Type="Document" URL="../NEVSTOP-StopSignal.vipb"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
