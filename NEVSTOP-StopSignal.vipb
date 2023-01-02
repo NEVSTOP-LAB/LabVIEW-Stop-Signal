@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-12-10 21:44:19" Modified_Date="2022-12-11 11:28:44" Creator="IECUBE" Comments="" ID="d5a59b8873d044000fc3d71e0e23522c">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-12-10 21:44:19" Modified_Date="2023-01-02 12:03:38" Creator="IECUBE" Comments="" ID="8aa9bd666fdf6b046043cbeb5119ebd2">
   <Library_General_Settings>
     <Package_File_Name/>
-    <Library_Version>0.1.0.1</Library_Version>
+    <Library_Version>0.2.0.1</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>StopSignal</Library_Source_Folder>
     <Library_Output_Folder>vip</Library_Output_Folder>
@@ -32,7 +32,10 @@
       <Copyright/>
       <Packager>NEVSTOP</Packager>
       <URL>https://github.com/NEVSTOP-LAB</URL>
-      <Release_Notes>Create VIPM package</Release_Notes>
+      <Release_Notes>1. [Modify] use DVR instead of notifier for stable reason
+2. [add] named stopsignal feature
+3. [add] add timestamp to stop reason
+4. [add] global stop API </Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
