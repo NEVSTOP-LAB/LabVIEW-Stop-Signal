@@ -19,10 +19,14 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="__TEST" Type="Folder" URL="../StopSignal/__TEST">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="StopSignal" Type="Folder">
 			<Item Name="dir.mnu" Type="Document" URL="../StopSignal/dir.mnu"/>
 			<Item Name="StopSignal.lvlib" Type="Library" URL="../StopSignal/StopSignal.lvlib"/>
 		</Item>
+		<Item Name="NEVSTOP-StopSignal.vipb" Type="Document" URL="../NEVSTOP-StopSignal.vipb"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

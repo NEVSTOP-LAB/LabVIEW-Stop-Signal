@@ -33,7 +33,13 @@ StopSignal-Check.vi: 信号检查，用于没有 EventStructure 的普通循环
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Support" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		<Item Name="StopSignal To DVR.vi" Type="VI" URL="../_Support/StopSignal To DVR.vi"/>
+		<Item Name="_StopSignal To DVR.vi" Type="VI" URL="../_Support/_StopSignal To DVR.vi"/>
+		<Item Name="_Create.vi" Type="VI" URL="../_Support/_Create.vi"/>
+		<Item Name="_Destroy.vi" Type="VI" URL="../_Support/_Destroy.vi"/>
+		<Item Name="_Counter-Decrement.vi" Type="VI" URL="../_Support/_Counter-Decrement.vi"/>
+		<Item Name="_Counter-Increment.vi" Type="VI" URL="../_Support/_Counter-Increment.vi"/>
+		<Item Name="_Counter-Name.vi" Type="VI" URL="../_Support/_Counter-Name.vi"/>
+		<Item Name="_LibDef.vi" Type="VI" URL="../_Support/_LibDef.vi"/>
 	</Item>
 	<Item Name="Documentation" Type="Folder">
 		<Item Name="Documentation.vi" Type="VI" URL="../Documentation/Documentation.vi"/>
@@ -42,8 +48,13 @@ StopSignal-Check.vi: 信号检查，用于没有 EventStructure 的普通循环
 		<Item Name="Template" Type="Folder">
 			<Item Name="StopSignal-Template.vit" Type="VI" URL="../API/StopSignal-Template.vit"/>
 		</Item>
+		<Item Name="Global" Type="Folder">
+			<Item Name="Stop-Get.vi" Type="VI" URL="../API/Global/Stop-Get.vi"/>
+			<Item Name="Stop-Set.vi" Type="VI" URL="../API/Global/Stop-Set.vi"/>
+		</Item>
 		<Item Name="StopSignal-Create.vi" Type="VI" URL="../API/StopSignal-Create.vi"/>
 		<Item Name="StopSignal-IsValid.vi" Type="VI" URL="../API/StopSignal-IsValid.vi"/>
+		<Item Name="StopSignal-Name.vi" Type="VI" URL="../API/StopSignal-Name.vi"/>
 		<Item Name="StopSignal-AsEvent.vi" Type="VI" URL="../API/StopSignal-AsEvent.vi"/>
 		<Item Name="StopSignal-AsNotifier.vi" Type="VI" URL="../API/StopSignal-AsNotifier.vi"/>
 		<Item Name="StopSignal-Generate.vi" Type="VI" URL="../API/StopSignal-Generate.vi"/>
@@ -53,9 +64,6 @@ StopSignal-Check.vi: 信号检查，用于没有 EventStructure 的普通循环
 	<Item Name="Typedef" Type="Folder">
 		<Item Name="StopSignal.ctl" Type="VI" URL="../Typedef/StopSignal.ctl"/>
 		<Item Name="Def-StopSignalData.ctl" Type="VI" URL="../Typedef/Def-StopSignalData.ctl"/>
-	</Item>
-	<Item Name="_TEST" Type="Folder">
-		<Item Name="StopSignal-TestMain.vi" Type="VI" URL="../__TEST/StopSignal-TestMain.vi"/>
-		<Item Name="StopSignal-Prototype.vi" Type="VI" URL="../__TEST/StopSignal-Prototype.vi"/>
+		<Item Name="def-StopReason.ctl" Type="VI" URL="../Typedef/def-StopReason.ctl"/>
 	</Item>
 </Library>
