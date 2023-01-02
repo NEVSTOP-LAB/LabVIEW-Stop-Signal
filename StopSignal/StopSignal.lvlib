@@ -40,6 +40,7 @@ StopSignal-Check.vi: 信号检查，用于没有 EventStructure 的普通循环
 		<Item Name="_Counter-Decrement.vi" Type="VI" URL="../_Support/_Counter-Decrement.vi"/>
 		<Item Name="_Counter-Increment.vi" Type="VI" URL="../_Support/_Counter-Increment.vi"/>
 		<Item Name="_Counter-Name.vi" Type="VI" URL="../_Support/_Counter-Name.vi"/>
+		<Item Name="_LibDef.vi" Type="VI" URL="../_Support/_LibDef.vi"/>
 	</Item>
 	<Item Name="Documentation" Type="Folder">
 		<Item Name="Documentation.vi" Type="VI" URL="../Documentation/Documentation.vi"/>
@@ -47,6 +48,10 @@ StopSignal-Check.vi: 信号检查，用于没有 EventStructure 的普通循环
 	<Item Name="API" Type="Folder">
 		<Item Name="Template" Type="Folder">
 			<Item Name="StopSignal-Template.vit" Type="VI" URL="../API/StopSignal-Template.vit"/>
+		</Item>
+		<Item Name="Global" Type="Folder">
+			<Item Name="Stop-Get.vi" Type="VI" URL="../API/Global/Stop-Get.vi"/>
+			<Item Name="Stop-Set.vi" Type="VI" URL="../API/Global/Stop-Set.vi"/>
 		</Item>
 		<Item Name="StopSignal-Create.vi" Type="VI" URL="../API/StopSignal-Create.vi"/>
 		<Item Name="StopSignal-IsValid.vi" Type="VI" URL="../API/StopSignal-IsValid.vi"/>
@@ -61,11 +66,5 @@ StopSignal-Check.vi: 信号检查，用于没有 EventStructure 的普通循环
 		<Item Name="StopSignal.ctl" Type="VI" URL="../Typedef/StopSignal.ctl"/>
 		<Item Name="Def-StopSignalData.ctl" Type="VI" URL="../Typedef/Def-StopSignalData.ctl"/>
 		<Item Name="def-StopReason.ctl" Type="VI" URL="../Typedef/def-StopReason.ctl"/>
-	</Item>
-	<Item Name="_TEST" Type="Folder">
-		<Item Name="StopSignal-TestMain.vi" Type="VI" URL="../__TEST/StopSignal-TestMain.vi"/>
-		<Item Name="StopSignal-TestMain2.vi" Type="VI" URL="../__TEST/StopSignal-TestMain2.vi"/>
-		<Item Name="StopSignal-TestMain3.vi" Type="VI" URL="../__TEST/StopSignal-TestMain3.vi"/>
-		<Item Name="StopSignal-Prototype.vi" Type="VI" URL="../__TEST/StopSignal-Prototype.vi"/>
 	</Item>
 </Library>
