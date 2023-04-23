@@ -41,9 +41,9 @@ StopSignal-Check.vi: 信号检查，用于没有 EventStructure 的普通循环
 		<Item Name="_Counter-Name.vi" Type="VI" URL="../_Support/_Counter-Name.vi"/>
 		<Item Name="_LibDef.vi" Type="VI" URL="../_Support/_LibDef.vi"/>
 		<Item Name="_StopSignalData.ctl" Type="VI" URL="../_Support/_StopSignalData.ctl"/>
-		<Item Name="_StopSignal MultiGenerate.vi" Type="VI" URL="../_Support/_StopSignal MultiGenerate.vi"/>
-		<Item Name="_StopSignal Get Signal Order.vi" Type="VI" URL="../_Support/_StopSignal Get Signal Order.vi"/>
-		<Item Name="_StopSignal Wait for Destroy Signal.vi" Type="VI" URL="../_Support/_StopSignal Wait for Destroy Signal.vi"/>
+		<Item Name="_StopSignal-Core-StopInOrder.vi" Type="VI" URL="../_Support/_StopSignal-Core-StopInOrder.vi"/>
+		<Item Name="_StopSignal-GetSignalDefaultOrder.vi" Type="VI" URL="../_Support/_StopSignal-GetSignalDefaultOrder.vi"/>
+		<Item Name="_StopSignal-WaitDestroyCompleted.vi" Type="VI" URL="../_Support/_StopSignal-WaitDestroyCompleted.vi"/>
 	</Item>
 	<Item Name="Documentation" Type="Folder">
 		<Item Name="Documentation.vi" Type="VI" URL="../Documentation/Documentation.vi"/>
@@ -64,8 +64,9 @@ StopSignal-Check.vi: 信号检查，用于没有 EventStructure 的普通循环
 		<Item Name="StopSignal-Generate.vi" Type="VI" URL="../API/StopSignal-Generate.vi"/>
 		<Item Name="StopSignal-Check.vi" Type="VI" URL="../API/StopSignal-Check.vi"/>
 		<Item Name="StopSignal-Destroy.vi" Type="VI" URL="../API/StopSignal-Destroy.vi"/>
-		<Item Name="StopSignal-GenerateMulti.vi" Type="VI" URL="../API/StopSignal-GenerateMulti.vi"/>
-		<Item Name="StopSignal-GenerateAll.vi" Type="VI" URL="../API/StopSignal-GenerateAll.vi"/>
+		<Item Name="StopSignal-StopInCustomOrder.vi" Type="VI" URL="../API/StopSignal-StopInCustomOrder.vi"/>
+		<Item Name="StopSignal-StopAllInDefaultOrder.vi" Type="VI" URL="../API/StopSignal-StopAllInDefaultOrder.vi"/>
+		<Item Name="StopSignal-StopFilteredSignalsInDefaultOrder.vi" Type="VI" URL="../API/StopSignal-StopFilteredSignalsInDefaultOrder.vi"/>
 	</Item>
 	<Item Name="Typedef" Type="Folder">
 		<Item Name="StopSignal.ctl" Type="VI" URL="../Typedef/StopSignal.ctl"/>
