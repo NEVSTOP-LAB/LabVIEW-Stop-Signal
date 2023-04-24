@@ -41,6 +41,8 @@ StopSignal-Check.vi: 信号检查，用于没有 EventStructure 的普通循环
 		<Item Name="_Counter-Increment.vi" Type="VI" URL="../_Support/_Counter-Increment.vi"/>
 		<Item Name="_Counter-Name.vi" Type="VI" URL="../_Support/_Counter-Name.vi"/>
 		<Item Name="_LibDef.vi" Type="VI" URL="../_Support/_LibDef.vi"/>
+		<Item Name="_StopSignal-Core-StopAll.vi" Type="VI" URL="../_Support/_StopSignal-Core-StopAll.vi"/>
+		<Item Name="_StopSignal-GetSignalInOrder.vi" Type="VI" URL="../_Support/_StopSignal-GetSignalInOrder.vi"/>
 		<Item Name="_StopSignalData.ctl" Type="VI" URL="../_Support/_StopSignalData.ctl"/>
 	</Item>
 	<Item Name="Documentation" Type="Folder">
@@ -62,6 +64,8 @@ StopSignal-Check.vi: 信号检查，用于没有 EventStructure 的普通循环
 		<Item Name="StopSignal-Generate.vi" Type="VI" URL="../API/StopSignal-Generate.vi"/>
 		<Item Name="StopSignal-Check.vi" Type="VI" URL="../API/StopSignal-Check.vi"/>
 		<Item Name="StopSignal-Destroy.vi" Type="VI" URL="../API/StopSignal-Destroy.vi"/>
+		<Item Name="StopSignal-StopAllInOrder.vi" Type="VI" URL="../API/StopSignal-StopAllInOrder.vi"/>
+		<Item Name="StopSignal-WaitForComplete.vi" Type="VI" URL="../API/StopSignal-WaitForComplete.vi"/>
 	</Item>
 	<Item Name="Typedef" Type="Folder">
 		<Item Name="StopSignal.ctl" Type="VI" URL="../Typedef/StopSignal.ctl"/>
