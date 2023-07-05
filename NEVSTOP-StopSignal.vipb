@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-12-10 21:44:19" Modified_Date="2023-07-05 16:45:56" Creator="IECUBE" Comments="" ID="859f52f95ff5b080d103a284643d2d88">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-12-10 21:44:19" Modified_Date="2023-07-05 17:01:35" Creator="IECUBE" Comments="" ID="df695873e839f278be5ab6a803382c04">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_lib_StopSignal</Package_File_Name>
     <Library_Version>2023.7.5.2</Library_Version>
