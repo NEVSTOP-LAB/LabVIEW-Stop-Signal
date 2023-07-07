@@ -42,7 +42,6 @@ StopSignal-Check.vi: 信号检查，用于没有 EventStructure 的普通循环
 		<Item Name="_Counter-Name.vi" Type="VI" URL="../_Support/_Counter-Name.vi"/>
 		<Item Name="_LibDef.vi" Type="VI" URL="../_Support/_LibDef.vi"/>
 		<Item Name="_StopSignal-Core-StopAll.vi" Type="VI" URL="../_Support/_StopSignal-Core-StopAll.vi"/>
-		<Item Name="_StopSignal-GetSignalInOrder.vi" Type="VI" URL="../_Support/_StopSignal-GetSignalInOrder.vi"/>
 		<Item Name="_StopSignalData.ctl" Type="VI" URL="../_Support/_StopSignalData.ctl"/>
 		<Item Name="_StopSignal-Signleton.vi" Type="VI" URL="../_Support/_StopSignal-Signleton.vi"/>
 	</Item>
