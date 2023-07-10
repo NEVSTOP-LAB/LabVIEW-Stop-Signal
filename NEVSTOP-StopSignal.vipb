@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-12-10 21:44:19" Modified_Date="2023-01-02 19:29:25" Creator="IECUBE" Comments="" ID="97bea0106fea3f3146456e19abbee81b">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-12-10 21:44:19" Modified_Date="2023-07-10 21:43:25" Creator="IECUBE" Comments="" ID="087a3e41a3743cede3d01150e6bb593d">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_lib_StopSignal</Package_File_Name>
-    <Library_Version>0.2.0.2</Library_Version>
+    <Library_Version>2023.7.10.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>StopSignal</Library_Source_Folder>
     <Library_Output_Folder>vip</Library_Output_Folder>
@@ -27,10 +27,10 @@
     </Custom_Action_VIs>
     <VI_Package_Configuration_File>NEVSTOP-StopSignal.vipc</VI_Package_Configuration_File>
     <Description>
-      <One_Line_Description_Summary>LabVIEW 架构可使用的停止方案.</One_Line_Description_Summary>
-      <Description>LabVIEW 架构可使用的停止方案.</Description>
+      <One_Line_Description_Summary>Stop Mechanism for LabVIEW Framework</One_Line_Description_Summary>
+      <Description>Stop Mechanism for LabVIEW Framework</Description>
       <Copyright/>
-      <Packager>NEVSTOP</Packager>
+      <Packager>NEVSTOP, Leo452379</Packager>
       <URL>https://github.com/NEVSTOP-LAB</URL>
       <Release_Notes>1. [Modify] use DVR instead of notifier for stable reason
 2. [add] named stopsignal feature
